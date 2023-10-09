@@ -1,0 +1,47 @@
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#headline {
+    background-color: #333;
+    padding: 20px;
+}
+
+.info {
+    background-color: #333;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    animation: slideIn 1s ease-in-out;
+}
+
+.subheadline {
+    color: #FFA500;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.picture {
+    margin-top: 10px;
+}
