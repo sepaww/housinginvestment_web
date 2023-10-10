@@ -37,19 +37,19 @@ body {
 .subheadline {
     color: #FFA500;
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 2.5rem;
 }
 
 .subheadline_split {
     color: #FFA500;
     font-weight: bold;
-    font-size: 1.8rem;
-    margin-top: 40px;
+    font-size: 2.5rem;
+    margin-top: 100px;
 }
 
 .text {
     margin-top: 10px;
-    font-size: 1.4rem;
+    font-size: 2.0rem;
 }
 
 .picture {
@@ -60,7 +60,7 @@ body {
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 1.6rem;
+    font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
