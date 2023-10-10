@@ -5,61 +5,73 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <div class="temp" ></div>
     <div id="headline">
         <h1>Making a housing investment the smart way</h1>
     </div>
-    <div id="'intro">
-        Making a housing investment takes a lot of starting income and the best apartments are hard to get acces to. Or is it? According to our research comparing the costs and rental incomes of different cities in Finland by postal code we have found out that a lot of suburbs in different cities have surprisingly cheap prices and yet yield a great amount of rental income. 
+    <div id="'intro" class="intro">
+        Making a housing investment takes a lot of starting income and the best apartments are hard to get access to. Or is it? According to our research comparing the costs and rental incomes of different cities in Finland by postal code we have found out that a lot of suburbs in different cities have surprisingly cheap prices and yet yield a great amount of rental income. 
     </div>
     <div class="subheadline">Summarizing 2022s</div>
     <div class="info" id="info1">
         <div class="subheadline">best areas for investment</div>
         <div class="text">When looking at the best possible areas to make an investment the results are unexpected. None of the classic central areas pop up. Here are the best investment options with smallest payback time (the time it takes to get one's initial investment money back with rental income) </div>
         <div class="picture">
-            <img src="best.png" alt="plot of best choices">
+            <img class='picture'  src="best.png" alt="plot of best choices">
+        </div>
+        <div class="text">compared to the worst possible investment areas</div>
+        <div class="picture">
+            <img class='picture'  src="worst.png" alt="plot of worst choices">
         </div>
     </div>
 
     <div class="info" id="info2">
         <div class="subheadline">Comparing bedroom counts in apartments</div>
-        <div class="text">When comparing the different postal code areas separating them by the number of bedrooms, we can see a clear increase in rent for single bedroom apartments at the same price level as the other 2 or 3 + bedroom options. Thus a single bedroom apartment it the way to go for a housing inverstor </div>
+        <div class="text">When comparing the different postal code areas separating them by the number of bedrooms, we can see a clear increase in rent for single bedroom apartments at the same price level as the other 2 or 3 + bedroom options. Thus a single bedroom apartment it the way to go for a housing investor </div>
         <div class="picture">
-            <img src="scat_room.png" alt="scatterplot colorcoded by city">
+            <img class='picture'  src="scat_room.png" alt="scatterplot colorcoded by city">
         </div>
     </div>
 
     <div class="info" id="info3">
         <div class="subheadline">Comparing cities</div>
-        <div class="text">On the other hand, color coding the same areas by the city they are located in we can see some areas in Helsinki being extremely expensive to purchase, but still give same level rental income as other cheaper options, meaning some areas in Helsinki seem way overpriced /div>
+        <div class="text">On the other hand, color coding the same areas by the city they are located in we can see some areas in Helsinki being extremely expensive to purchase, but still give same level rental income as other cheaper options, meaning some areas in Helsinki seem way overpriced </div>
         <div class="picture">
-            <img src="scat_city.png" alt="scatterplot colorcoded by bedroom amount">
+            <img class='picture'  src="scat_city.png" alt="scatterplot colorcoded by bedroom amount">
         </div>
     </div>
-    <div class="subheadline">Predicting the future</div>
-    <div id="'intro">
-        With our modern AI model, we can see into the future and predict what areas are going to be the best choices to look for in the future in ____ year span. 
+    
+    <div class="subheadline_split">Predicting the future</div>
+    <div id="'intro" class="intro">
+        With our modern AI model, we can see into the future and predict what areas are going to be the best choices to look for in the future in 5 year span. Welcome to year 2027
     </div>
+    
     <div class="info" id="info4">
         <div class="subheadline">The best areas in the future</div>
         <div class="text">Using the same methods as used in 2022s data we can see that some areas have stayed the, but also some new up-and-comer areas peak out their heads. </div>
         <div class="picture">
-            <img src="best.png" alt="reserve">
+            <img class='picture'  src="future_best.png" alt="reserve">
+        </div>
+        <div class="text">Compared to worst future investment areas</div>
+        <div class="picture">
+            <img class='picture'  src="future_worst.png" alt="plot of worst choices">
         </div>
     </div>
-    <div class="info" id="info2">
-        <div class="subheadline">Info Subheadline 2</div>
-        <div class="text">Info Text 2</div>
-        <div class="picture">Info Picture 2
-            <img src="scat_room.png" alt="scatterplot colorcoded by city">
+    <div class="info" id="info5">
+        <div class="subheadline">areas by bedroom count in the future</div>
+        <div class="text">Applying the same scatterplot to predicted values we can see that the rents are likely to rise by a lot as well as prices of apartments. One-bedroom apartments keep their lead to other options </div>
+        <div class="picture">
+            <img class='picture' src="futurescat_room.png" alt="scatterplot colorcoded by city">
         </div>
     </div>
 
-    <div class="info" id="info3">
-        <div class="subheadline">Info Subheadline 3</div>
-        <div class="text">Info Text 3</div>
-        <div class="picture">Info Picture 3
-            <img src="scat_city.png" alt="scatterplot colorcoded by bedroom amount">
+    <div class="info" id="info6">
+        <div class="subheadline">areas by city in the future</div>
+        <div class="text">Exploring the city color coded data, it can be seen that Helsinki keeps becoming even more overpriced in some areas. </div>
+        <div class="picture">
+            <img class='picture'  src="futurescat_city.png" alt="scatterplot colorcoded by bedroom amount">
         </div>
+        
     </div>
 </body>
 </html>

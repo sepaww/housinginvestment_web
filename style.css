@@ -16,6 +16,8 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    font-family:'Times New Roman', Times, serif;
+
 }
 
 #headline {
@@ -35,13 +37,30 @@ body {
 .subheadline {
     color: #FFA500;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+}
+
+.subheadline_split {
+    color: #FFA500;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 40px;
 }
 
 .text {
     margin-top: 10px;
+    font-size: 1.4rem;
 }
 
 .picture {
     margin-top: 10px;
+    width: 100%;
+}
+.intro {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
