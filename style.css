@@ -9,6 +9,12 @@
     }
 }
 
+div {
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 body {
     background-color: #222;
     color: #fff;
@@ -27,7 +33,7 @@ body {
 
 .info {
     background-color: #333;
-    margin: 20px;
+    margin-top: 20px;
     padding: 20px;
     border-radius: 10px;
     text-align: left;
@@ -58,8 +64,6 @@ body {
 }
 .intro {
     margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 40px;
